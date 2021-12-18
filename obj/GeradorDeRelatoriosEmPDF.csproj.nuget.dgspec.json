@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projetos-ASPNET-Core\\GeradorDeRelatoriosEmPDF\\GeradorDeRelatoriosEmPDF.csproj": {}
+  },
+  "projects": {
+    "C:\\Projetos-ASPNET-Core\\GeradorDeRelatoriosEmPDF\\GeradorDeRelatoriosEmPDF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos-ASPNET-Core\\GeradorDeRelatoriosEmPDF\\GeradorDeRelatoriosEmPDF.csproj",
+        "projectName": "GeradorDeRelatoriosEmPDF",
+        "projectPath": "C:\\Projetos-ASPNET-Core\\GeradorDeRelatoriosEmPDF\\GeradorDeRelatoriosEmPDF.csproj",
+        "packagesPath": "C:\\Users\\erism\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos-ASPNET-Core\\GeradorDeRelatoriosEmPDF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\erism\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "iTextSharp.LGPLv2.Core": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
