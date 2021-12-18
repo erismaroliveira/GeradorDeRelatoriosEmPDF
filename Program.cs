@@ -53,8 +53,6 @@ namespace GeradorDeRelatoriosEmPDF
                 writer.PageEvent = new EventosDePagina(totalPaginas);
                 pdf.Open();
 
-                
-
                 // adição do título
                 var fonteParagrafo = new iTextSharp.text.Font(fonteBase, 32,
                     iTextSharp.text.Font.NORMAL, BaseColor.Black);
